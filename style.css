@@ -103,6 +103,20 @@ footer {
     margin-top: 40px;
 }
 
+.profile-image {
+    width: 150px; /* adjust size as needed */
+    height: 150px;
+    border-radius: 50%;
+    padding: 5px; /* space for gradient */
+    background: linear-gradient(black, gray, white);
+}
+.profile-image img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
     header h1 {

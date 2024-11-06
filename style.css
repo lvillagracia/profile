@@ -1,17 +1,3 @@
-/* Reset styling */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #000000, #434343); /* Black to gray gradient background */
-    color: #ffffff; /* White text for contrast */
-    padding: 20px;
-}
-
 /* Header Styling */
 .header-container {
     display: flex;
@@ -33,6 +19,16 @@ body {
     height: 100%;
     border-radius: 50%; /* Ensures the image inside stays circular */
 }
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #000000, #434343); /* Black to gray gradient background */
+    color: #ffffff; /* White text for contrast */
+    padding: 20px;
+}
+
+
 
 
 /* Navigation */

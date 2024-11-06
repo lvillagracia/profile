@@ -14,6 +14,18 @@ body {
 
 /* Header Styling */
 header {
+    .profile-image {
+    width: 150px; /* adjust size as needed */
+    height: 150px;
+    border-radius: 50%;
+    padding: 5px; /* space for gradient */
+    background: linear-gradient(black, gray, white);
+}
+.profile-image png {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
     text-align: center;
     background: linear-gradient(135deg, #000000, #434343); /* Black gradient background */
     color: #ffffff;
@@ -103,18 +115,7 @@ footer {
     margin-top: 40px;
 }
 
-.profile-image {
-    width: 150px; /* adjust size as needed */
-    height: 150px;
-    border-radius: 50%;
-    padding: 5px; /* space for gradient */
-    background: linear-gradient(black, gray, white);
-}
-.profile-image img {
-    border-radius: 50%;
-    width: 100%;
-    height: 100%;
-}
+
 
 
 /* Responsive Design */

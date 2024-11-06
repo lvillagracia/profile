@@ -1,6 +1,7 @@
 /* Header Styling */
 .header-container {
     display: flex;
+    justify-content: center;
     align-items: center; /* Aligns image and text vertically */
     gap: 10px; /* Adds space between the image and the text */
 }

@@ -159,7 +159,7 @@ footer {
 }
 
 /*Same Background across all pages */
-.home {
+#home {
     padding: 60px 20px;
     background-color: #f9f9f9; /* Same background color across pages */
     text-align: center;
@@ -167,7 +167,7 @@ footer {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.home h1, #home p {
+#home h1, #home p {
     color: #333;
 }
 

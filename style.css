@@ -158,6 +158,19 @@ footer {
     background-color: #005bb5;
 }
 
+/*Same Background across all pages */
+.home {
+    padding: 60px 20px;
+    background-color: #f9f9f9; /* Same background color across pages */
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.home h1, #home p {
+    color: #333;
+}
+
 
 /* Responsive Design */
 @media (max-width: 768px) {

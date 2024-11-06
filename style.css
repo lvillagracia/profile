@@ -1,3 +1,11 @@
+/* Reset styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 /* Header Styling */
 .header-container {
     display: flex;
@@ -22,13 +30,14 @@
 }
 
 
+
+/* Body */
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #000000, #434343); /* Black to gray gradient background */
     color: #ffffff; /* White text for contrast */
     padding: 20px;
 }
-
 
 
 

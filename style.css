@@ -165,7 +165,7 @@ footer {
 
 /* UL structure*/
 ul {
-  list-style-type: bullet; /* insert default bullet points */
+  list-style-type: square; /* Use square bullets */
   margin: 0;
   padding: 0;
   text-align: left;

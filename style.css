@@ -163,6 +163,18 @@ footer {
     background-color: #005bb5;
 }
 
+/* UL structure*/
+ul {
+  list-style-type: bullet; /* insert default bullet points */
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+li {
+  margin-bottom: 10px; /* Adjust the spacing between list items as needed */
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     header h1 {

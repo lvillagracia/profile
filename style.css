@@ -62,3 +62,15 @@ a {
 a:hover {
     text-decoration: underline;
 }
+:root {
+  --primary-blue: #1A73E8;
+  --background-white: #FFFFFF;
+  --text-black: #000000;
+}
+body {
+  background-color: var(--background-white);
+  color: var(--text-black);
+}
+h1, h2 {
+  color: var(--primary-blue);
+}

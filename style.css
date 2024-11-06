@@ -120,7 +120,7 @@ footer {
     align-items: center;
     text-align: center;
     padding: 60px 20px;
-    background: linear-gradient(to bottom, #222222, #222222);
+    background: linear-gradient(135deg, #000000, #434343); /* Black to gray gradient background */
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }

@@ -1,90 +1,87 @@
-/* Global Styles */
+/* Reset styling */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Helvetica Neue', sans-serif;
 }
 
 body {
-    background-color: #ffffff; /* White background for clean look */
-    color: #333333; /* Dark text for contrast */
-    font-size: 16px;
-    line-height: 1.6;
-}
-
-a {
-    text-decoration: none;
-    color: #000000; /* Black links */
-}
-
-a:hover {
-    color: #e63946; /* Bold red on hover */
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #000000, #434343); /* Black to gray gradient background */
+    color: #ffffff; /* White text for contrast */
+    padding: 20px;
 }
 
 /* Header Styling */
 header {
-    background-color: #000000; /* Black background */
-    color: #ffffff; /* White text */
-    padding: 20px 0;
     text-align: center;
+    background: linear-gradient(135deg, #000000, #434343); /* Black gradient background */
+    color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
 }
 
-header h1 {
-    font-size: 3rem;
-    font-weight: 700;
+h1, p {
+    margin: 0;
 }
 
 /* Navigation */
-nav {
+nav ul {
     display: flex;
     justify-content: center;
-    margin: 20px 0;
-    background-color: #f0f0f0; /* Light gray background */
+    list-style: none;
+    background-color: #111111; /* Dark gray background for nav */
     padding: 10px;
+    border-radius: 8px;
 }
 
 nav a {
-    color: #333;
-    margin: 0 20px;
-    font-size: 1.1rem;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 15px;
     text-transform: uppercase;
 }
 
 nav a:hover {
-    color: #e63946; /* Red hover effect */
+    color: #f0f0f0; /* Light gray text on hover */
+    text-decoration: underline;
 }
 
-/* Main Content */
+/* Section Styling */
 section {
-    padding: 60px 20px;
-    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #222222; /* Dark background for sections */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
 }
 
 h2 {
-    font-size: 2.5rem;
-    font-weight: 600;
-    color: #333;
-    margin-bottom: 20px;
+    color: #ffffff; /* White text for section headings */
+    font-size: 2rem;
+    margin-bottom: 15px;
 }
 
 p {
-    font-size: 1.2rem;
-    color: #666; /* Slight gray for text */
+    color: #ccc; /* Light gray text for paragraphs */
 }
 
-/* Footer */
-footer {
-    background-color: #000;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+/* Link Styling */
+a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
-/* Button Style */
+a:hover {
+    color: #f0f0f0; /* Light gray on hover */
+    text-decoration: underline;
+}
+
+/* Button Styling */
 button {
-    background-color: #e63946; /* Tesla-like red */
-    color: #fff;
+    background-color: #444444; /* Dark gray background for buttons */
+    color: #ffffff;
     padding: 12px 30px;
     font-size: 1.2rem;
     border: none;
@@ -94,7 +91,16 @@ button {
 }
 
 button:hover {
-    background-color: #d63439; /* Slightly darker red on hover */
+    background-color: #333333; /* Darker gray on hover */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #111111; /* Dark footer background */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
 }
 
 /* Responsive Design */

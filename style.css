@@ -12,7 +12,7 @@
     align-items: center;
     text-align: center;
     padding: 60px 20px;
-    background: linear-gradient(135deg, #AFD3E2, #19A7CE); /* Black to gray gradient background */
+    background: linear-gradient(135deg, #F6F1F1, #F6F1F1); /* Black to gray gradient background */
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }

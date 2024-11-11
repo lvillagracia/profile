@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(135deg, #C4DAD2, #6A9C89); /* Black to gray gradient background */
 }
 
 
@@ -175,7 +174,6 @@ li {
 
 /* Footer Styling */
 footer {
-    background: linear-gradient(135deg, #C4DAD2, #6A9C89); /* Black to gray gradient background */
     color: #16423C;
     padding: 20px;
     text-align: center;

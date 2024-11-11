@@ -33,20 +33,19 @@ nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
-    background-color: #6A9C89; /* Dark gray background for nav */
     padding: 10px;
     border-radius: 8px;
 }
 
 nav a {
-    color: #16423C;
+    color: #243A73;
     text-decoration: none;
     padding: 0 15px;
     text-transform: uppercase;
 }
 
 nav a:hover {
-    color: #C4DAD2; /* Light gray text on hover */
+    color: #F2EBE9; /* Light gray text on hover */
     text-decoration: underline;
 }
 
@@ -54,19 +53,19 @@ nav a:hover {
 
 /* Link Styling */
 a {
-    color: #16423C;
+    color: #243A73;
     text-decoration: none;
 }
 
 a:hover {
-    color: #C4DAD2; /* Light gray on hover */
+    color: #F2EBE9; /* Light gray on hover */
     text-decoration: underline;
 }
 
 /* Body */
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #6A9C89, #C4DAD2); /* Black to gray gradient background */
+    background: linear-gradient(135deg, #F2EBE9, #243A73); /* Black to gray gradient background */
     color: #16423C; /* White text for contrast */
     padding: 20px;
 }
@@ -87,26 +86,26 @@ body {
 .intro-section h1 {
     font-size: 2.5em;
     font-weight: bold;
-    color: #16423C; /* White text for contrast */
+    color: #243A73; /* White text for contrast */
 }
 
 .intro-section p {
     font-size: 1.2em;
-    color: #16423C; /* White text for contrast */
+    color: #243A73; /* White text for contrast */
     margin: 10px 0;
 }
 
 .intro-text {
     font-style: italic;
-    color: #16423C; /* White text for contrast */
+    color: #243A73; /* White text for contrast */
 }
 
 .intro-section button {
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 1em;
-    color: #E9EFEC;
-    background-color: #16423C;
+    color: #F2EBE9;
+    background-color: #243A73;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -114,7 +113,7 @@ body {
 }
 
 .intro-section button:hover {
-    background-color: #6A9C89;
+    background-color: #A5BECC;
 }
 
 
@@ -123,23 +122,23 @@ body {
 section {
     margin: 20px 0;
     padding: 20px;
-    background-color: #C4DAD2; /* Dark background for sections */
+    background-color: #F2EBE9; /* Dark background for sections */
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
 }
 
 h2 {
-    color: #16423C; /* White text for section headings */
+    color: #243A73; /* White text for section headings */
     font-size: 2rem;
     margin-bottom: 15px;
 }
 
 p{
-    color:16423C;
+    color:243A73;
 }
 
 ul li{
-color:16423C;
+color:243A73;
 }
 
 

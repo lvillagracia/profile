@@ -34,7 +34,7 @@
 /* Body */
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #F6F1F1, #AFD3E2); /* Black to gray gradient background */
+    background: linear-gradient(135deg, #F6F1F1, #19A7CE); /* Black to gray gradient background */
     color: #ffffff; /* White text for contrast */
     padding: 20px;
 }
@@ -46,20 +46,20 @@ nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
-    background-color: #AFD3E2; /* Dark gray background for nav */
+    background-color: #19A7CE; /* Dark gray background for nav */
     padding: 10px;
     border-radius: 8px;
 }
 
 nav a {
-    color: #146C94;
+    color: #F6F1F1;
     text-decoration: none;
     padding: 0 15px;
     text-transform: uppercase;
 }
 
 nav a:hover {
-    color: #F6F1F1; /* Light gray text on hover */
+    color: #146C94; /* Light gray text on hover */
     text-decoration: underline;
 }
 
@@ -73,7 +73,7 @@ section {
 }
 
 h2 {
-    color: #146C94; /* White text for section headings */
+    color: #19A7CE; /* White text for section headings */
     font-size: 2rem;
     margin-bottom: 15px;
 }
@@ -84,12 +84,12 @@ p {
 
 /* Link Styling */
 a {
-    color: #146C94;
+    color: #19A7CE;
     text-decoration: none;
 }
 
 a:hover {
-    color: #f0f0f0; /* Light gray on hover */
+    color: #F6F1F1; /* Light gray on hover */
     text-decoration: underline;
 }
 
@@ -111,7 +111,7 @@ button:hover {
 
 /* Footer Styling */
 footer {
-    background-color: #AFD3E2; /* Dark footer background */
+    background-color: #F6F1F1; /* Dark footer background */
     color: #146C94;
     padding: 20px;
     text-align: center;
@@ -125,7 +125,7 @@ footer {
     align-items: center;
     text-align: center;
     padding: 60px 20px;
-    background: linear-gradient(135deg, #F6F1F1, #AFD3E2); /* Black to gray gradient background */
+    background: linear-gradient(135deg, #F6F1F1, #19A7CE); /* Black to gray gradient background */
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }

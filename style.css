@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: linear-gradient(135deg, #C4DAD2, #6A9C89); /* Black to gray gradient background */
 }
 
 

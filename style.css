@@ -175,8 +175,8 @@ li {
 
 /* Footer Styling */
 footer {
-    background-color: #F6F1F1; /* Dark footer background */
-    color: #146C94;
+    background: linear-gradient(135deg, #C4DAD2, #6A9C89); /* Black to gray gradient background */
+    color: #16423C;
     padding: 20px;
     text-align: center;
     margin-top: 40px;

@@ -19,7 +19,7 @@
     height: 100px;
     border-radius: 50%;
     padding: 5px; /* Space for gradient border */
-    background: linear-gradient(black, gray, white);
+    background: linear-gradient(F6F1F1, AFD3E2, 19A7CE);
     display: inline-block;
 }
 
@@ -34,7 +34,7 @@
 /* Body */
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #000000, #434343); /* Black to gray gradient background */
+    background: linear-gradient(135deg, #F6F1F1, #AFD3E2); /* Black to gray gradient background */
     color: #ffffff; /* White text for contrast */
     padding: 20px;
 }
@@ -46,20 +46,20 @@ nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
-    background-color: #111111; /* Dark gray background for nav */
+    background-color: #AFD3E2; /* Dark gray background for nav */
     padding: 10px;
     border-radius: 8px;
 }
 
 nav a {
-    color: #ffffff;
+    color: #146C94;
     text-decoration: none;
     padding: 0 15px;
     text-transform: uppercase;
 }
 
 nav a:hover {
-    color: #f0f0f0; /* Light gray text on hover */
+    color: #F6F1F1; /* Light gray text on hover */
     text-decoration: underline;
 }
 
@@ -67,24 +67,24 @@ nav a:hover {
 section {
     margin: 20px 0;
     padding: 20px;
-    background-color: #222222; /* Dark background for sections */
+    background-color: #AFD3E2; /* Dark background for sections */
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
 }
 
 h2 {
-    color: #ffffff; /* White text for section headings */
+    color: #146C94; /* White text for section headings */
     font-size: 2rem;
     margin-bottom: 15px;
 }
 
 p {
-    color: #ccc; /* Light gray text for paragraphs */
+    color: #146C94; /* Light gray text for paragraphs */
 }
 
 /* Link Styling */
 a {
-    color: #ffffff;
+    color: #146C94;
     text-decoration: none;
 }
 
@@ -95,8 +95,8 @@ a:hover {
 
 /* Button Styling */
 button {
-    background-color: #444444; /* Dark gray background for buttons */
-    color: #ffffff;
+    background-color: #19A7CE; /* Dark gray background for buttons */
+    color: #F6F1F1;
     padding: 12px 30px;
     font-size: 1.2rem;
     border: none;
@@ -106,13 +106,13 @@ button {
 }
 
 button:hover {
-    background-color: #333333; /* Darker gray on hover */
+    background-color: #F6F1F1; /* Darker gray on hover */
 }
 
 /* Footer Styling */
 footer {
-    background-color: #111111; /* Dark footer background */
-    color: #fff;
+    background-color: #AFD3E2; /* Dark footer background */
+    color: #146C94;
     padding: 20px;
     text-align: center;
     margin-top: 40px;
@@ -125,7 +125,7 @@ footer {
     align-items: center;
     text-align: center;
     padding: 60px 20px;
-    background: linear-gradient(135deg, #000000, #434343); /* Black to gray gradient background */
+    background: linear-gradient(135deg, #F6F1F1, #AFD3E2); /* Black to gray gradient background */
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
@@ -133,26 +133,26 @@ footer {
 .intro-section h1 {
     font-size: 2.5em;
     font-weight: bold;
-    color: #ffffff; /* White text for contrast */
+    color: #19A7CE; /* White text for contrast */
 }
 
 .intro-section p {
     font-size: 1.2em;
-    color: #ffffff; /* White text for contrast */
+    color: #146C94; /* White text for contrast */
     margin: 10px 0;
 }
 
 .intro-text {
     font-style: italic;
-    color: #ffffff; /* White text for contrast */
+    color: #AFD3E2; /* White text for contrast */
 }
 
 .intro-section button {
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 1em;
-    color: #fff;
-    background-color: #0073e6;
+    color: #F6F1F1;
+    background-color: #19A7CE;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -160,7 +160,7 @@ footer {
 }
 
 .intro-section button:hover {
-    background-color: #005bb5;
+    background-color: #F6F1F1;
 }
 
 /* UL structure*/

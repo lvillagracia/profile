@@ -6,6 +6,73 @@
 }
 
 
+/* Header Styling */
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Aligns image and text vertically */
+    gap: 10px; /* Adds space between the image and the text */
+}
+
+.profile-image {
+    width: 100px; /* Adjust size as needed */
+    height: 100px;
+    border-radius: 50%;
+    padding: 5px; /* Space for gradient border */
+    display: inline-block;
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; /* Ensures the image inside stays circular */
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #6A9C89; /* Dark gray background for nav */
+    padding: 10px;
+    border-radius: 8px;
+}
+
+nav a {
+    color: #16423C;
+    text-decoration: none;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #C4DAD2; /* Light gray text on hover */
+    text-decoration: underline;
+}
+
+
+
+/* Link Styling */
+a {
+    color: #16423C;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C4DAD2; /* Light gray on hover */
+    text-decoration: underline;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #6A9C89, #C4DAD2); /* Black to gray gradient background */
+    color: #16423C; /* White text for contrast */
+    padding: 20px;
+}
+
+
+
 /* Intro Section */
 .intro-section {
     display: flex;
@@ -13,7 +80,6 @@
     align-items: center;
     text-align: center;
     padding: 60px 20px;
-    background: linear-gradient(135deg, #C4DAD2, #6A9C89); /* Black to gray gradient background */
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
@@ -77,40 +143,7 @@ color:16423C;
 }
 
 
-/* Navigation */
-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    background-color: #6A9C89; /* Dark gray background for nav */
-    padding: 10px;
-    border-radius: 8px;
-}
 
-nav a {
-    color: #16423C;
-    text-decoration: none;
-    padding: 0 15px;
-    text-transform: uppercase;
-}
-
-nav a:hover {
-    color: #C4DAD2; /* Light gray text on hover */
-    text-decoration: underline;
-}
-
-
-
-/* Link Styling */
-a {
-    color: #16423C;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #C4DAD2; /* Light gray on hover */
-    text-decoration: underline;
-}
 
 /* Button Styling */
 button {
@@ -126,38 +159,6 @@ button {
 
 button:hover {
     background-color: #6A9C89; /* Darker gray on hover */
-}
-
-/* Header Styling */
-.header-container {
-    display: flex;
-    justify-content: center;
-    align-items: center; /* Aligns image and text vertically */
-    gap: 10px; /* Adds space between the image and the text */
-}
-
-.profile-image {
-    width: 100px; /* Adjust size as needed */
-    height: 100px;
-    border-radius: 50%;
-    padding: 5px; /* Space for gradient border */
-    display: inline-block;
-}
-
-.profile-image img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%; /* Ensures the image inside stays circular */
-}
-
-
-
-/* Body */
-body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #6A9C89, #C4DAD2); /* Black to gray gradient background */
-    color: #16423C; /* White text for contrast */
-    padding: 20px;
 }
 
 

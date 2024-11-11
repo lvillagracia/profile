@@ -34,35 +34,23 @@ nav ul {
 }
 
 nav a {
-    color: #243A73;
+    color: #5AB2FF;
     text-decoration: none;
     padding: 0 15px;
     text-transform: uppercase;
 }
 
 nav a:hover {
-    color: #F2EBE9; /* Light gray text on hover */
+    color: #FFF9D0; /* Light gray text on hover */
     text-decoration: underline;
 }
 
-
-
-/* Link Styling */
-a {
-    color: #243A73;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #F2EBE9; /* Light gray on hover */
-    text-decoration: underline;
-}
 
 /* Body */
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #F2EBE9, #243A73); /* Black to gray gradient background */
-    color: #16423C; /* White text for contrast */
+    background: linear-gradient(135deg, #5AB2FF, #FFF9D0); /* Black to gray gradient background */
+    color: #1A1A1D; /* White text for contrast */
     padding: 20px;
 }
 

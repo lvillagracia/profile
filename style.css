@@ -156,7 +156,7 @@ button:hover {
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #6A9C89, #C4DAD2); /* Black to gray gradient background */
-    color: #ffffff; /* White text for contrast */
+    color: #16423C; /* White text for contrast */
     padding: 20px;
 }
 
@@ -180,10 +180,6 @@ footer {
     padding: 20px;
     text-align: center;
     margin-top: 40px;
-}
-
-ul{
-    color:16423C;
 }
 
 

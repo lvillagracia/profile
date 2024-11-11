@@ -30,94 +30,6 @@
 }
 
 
-
-/* Body */
-body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #000000, #434343); /* Black to gray gradient background */
-    color: #ffffff; /* White text for contrast */
-    padding: 20px;
-}
-
-
-
-/* Navigation */
-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    background-color: #111111; /* Dark gray background for nav */
-    padding: 10px;
-    border-radius: 8px;
-}
-
-nav a {
-    color: #ffffff;
-    text-decoration: none;
-    padding: 0 15px;
-    text-transform: uppercase;
-}
-
-nav a:hover {
-    color: #f0f0f0; /* Light gray text on hover */
-    text-decoration: underline;
-}
-
-/* Section Styling */
-section {
-    margin: 20px 0;
-    padding: 20px;
-    background-color: #222222; /* Dark background for sections */
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
-}
-
-h2 {
-    color: #ffffff; /* White text for section headings */
-    font-size: 2rem;
-    margin-bottom: 15px;
-}
-
-p {
-    color: #ccc; /* Light gray text for paragraphs */
-}
-
-/* Link Styling */
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #f0f0f0; /* Light gray on hover */
-    text-decoration: underline;
-}
-
-/* Button Styling */
-button {
-    background-color: #444444; /* Dark gray background for buttons */
-    color: #ffffff;
-    padding: 12px 30px;
-    font-size: 1.2rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #333333; /* Darker gray on hover */
-}
-
-/* Footer Styling */
-footer {
-    background-color: #111111; /* Dark footer background */
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    margin-top: 40px;
-}
-
 /* Intro Section */
 .intro-section {
     display: flex;
@@ -163,6 +75,91 @@ footer {
     background-color: #005bb5;
 }
 
+    
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #111111; /* Dark gray background for nav */
+    padding: 10px;
+    border-radius: 8px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #f0f0f0; /* Light gray text on hover */
+    text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #222222; /* Dark background for sections */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+}
+
+h2 {
+    color: #ffffff; /* White text for section headings */
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #ccc; /* Light gray text for paragraphs */
+}
+
+    
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #000000, #434343); /* Black to gray gradient background */
+    color: #ffffff; /* White text for contrast */
+    padding: 20px;
+}
+
+
+
+/* Link Styling */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f0f0f0; /* Light gray on hover */
+    text-decoration: underline;
+}
+
+/* Button Styling */
+button {
+    background-color: #444444; /* Dark gray background for buttons */
+    color: #ffffff;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #333333; /* Darker gray on hover */
+}
+
+
+
+
+
 /* UL structure*/
 ul {
   list-style-type: square; /* Use square bullets */
@@ -174,6 +171,17 @@ ul {
 li {
   margin-bottom: 10px; /* Adjust the spacing between list items as needed */
 }
+
+
+/* Footer Styling */
+footer {
+    background-color: #111111; /* Dark footer background */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+    
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -187,3 +195,5 @@ li {
         padding: 40px 20px;
     }
 }
+
+    

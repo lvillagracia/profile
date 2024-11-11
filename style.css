@@ -15,8 +15,8 @@
 }
 
 .profile-image {
-    width: 100px; /* Adjust size as needed */
-    height: 100px;
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
     border-radius: 50%;
     padding: 5px; /* Space for gradient border */
     display: inline-block;

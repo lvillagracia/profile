@@ -120,15 +120,6 @@ button:hover {
     background-color: #146C94; /* Darker gray on hover */
 }
 
-
-.MyName{
-    color:19A7CE;
-}
-
-.Position{
-    color: 19A7CE;
-}
-
 /* Header Styling */
 .header-container {
     display: flex;

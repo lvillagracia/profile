@@ -49,7 +49,7 @@ nav a:hover {
 /* Body */
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #5AB2FF, #FFF9D0); /* Black to gray gradient background */
+    background: linear-gradient(135deg, #FFF9D0, #003161); /* Black to gray gradient background */
     color: #1A1A1D; /* White text for contrast */
     padding: 20px;
 }

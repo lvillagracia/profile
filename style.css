@@ -39,8 +39,8 @@
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 1em;
-    color: #C4DAD2;
-    background-color: #6A9C89;
+    color: #E9EFEC;
+    background-color: #16423C;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -48,7 +48,7 @@
 }
 
 .intro-section button:hover {
-    background-color: #16423C;
+    background-color: #6A9C89;
 }
 
 

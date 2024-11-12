@@ -183,7 +183,11 @@ li {
     nav a {
         font-size: 1rem;
     }
+  nav ul { 
+      flex-direction: column; 
+  } 
     section {
+        min-width: 100%;
         padding: 40px 20px;
     }
 }

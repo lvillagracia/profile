@@ -184,7 +184,7 @@ li {
         font-size: 1rem;
     }
   nav ul { 
-      flex-direction: column; 
+      flex-direction: row; 
   } 
     section {
         min-width: 100%;
